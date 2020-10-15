@@ -16,11 +16,11 @@ public class Arithmetic
         Scanner scan = new Scanner(System.in);
         int choice = -1;
         while (choice != 5) {
-            System.out.println("Type 1 (and enter) to test doubles.");
-            System.out.println("Type 2 (and enter) to test integers.");
-            System.out.println("Type 3 (and enter) to try convertTemperature.");
-            System.out.println("Type 4 (and enter) to test convertTemperature.");
-            System.out.println("Type 5 (and enter) to quit.");
+            System.out.println(1);
+            System.out.println(2);
+            System.out.println(3);
+            System.out.println(4);
+            System.out.println(5);
             choice = scan.nextInt();
             if (choice == 1)
                 testDoubles();
